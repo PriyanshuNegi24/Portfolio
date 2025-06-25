@@ -1,0 +1,89 @@
+{
+  "personal": {
+    "name": "Priyanshu Negi",
+    "role": "Full Stack Developer",
+    "description": "I build scalable, user-focused web applications with clean UIs and real-time features, using React, Node.js, and TypeScript to bridge design and development.",
+    "avatar": "/avatar.jpg",
+    "location": "Dehradun, Uttarakhand, India",
+    "email": "priyanshu2000n@gmail.com",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/PriyanshuNegi24"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/priyanshu-negi-3b853a258"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Full Stack Developer skilled in building responsive web apps with React and Node.js. Passionate about creating clean, scalable, and user-friendly digital experiences.",
+    "resume": "/resume.pdf"
+  },
+  "projects": [
+    {
+      "title": "NTFS File Recovery Tool",
+      "description": "A desktop application that reads NTFS file system metadata to recover deleted files using low-level disk access and cluster mapping.",
+      "tags": ["Python", "Tkinter", "NTFS", "File Recovery", "Forensics"],
+      "image": "/recoverx.png",
+      "url": "",
+      "github": "https://github.com/RajeshNegi17/NTFS"
+    },
+    {
+      "title": "8085 Compiler Buddy",
+      "description": "An analyzer and helper tool for 8085 assembly language programming, providing syntax checking, instruction parsing, and error reporting.",
+      "tags": ["Python", "ANTLR", "Compiler Design", "Assembly Language"],
+      "image": "/8085_analyzer.png",
+      "url": "",
+      "github": "https://github.com/PriyanshuNegi24/8085_assembly_analyzer"
+    }
+  ],
+  "skills": [
+    { "name": "React" },
+    { "name": "Node.js" },
+    { "name": "Python" },
+    { "name": "Java" },
+    { "name": "JavaScript" },
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "Git" },
+    { "name": "C++" }
+  ],
+  "experience": [
+    {
+      "company": "Health Pulse Connect",
+      "role": "Frontend Developer Intern",
+      "startDate": "May 2024",
+      "endDate": "June 2024",
+      "responsibilities": [
+        "Developed and maintained a health sector startup, implementing real-time chat and video call features with WebSockets.",
+        "Used Redux for state management and API integration, improving application performance.",
+        "Enhanced the web app's UI for a better user experience."
+      ]
+    },
+    {
+      "company": "Tech Innovations Inc.",
+      "role": "Software Engineer Intern",
+      "startDate": "June 2023",
+      "endDate": "August 2023",
+      "responsibilities": [
+        "Collaborated with the backend team to integrate APIs into the frontend using React.",
+        "Improved the scalability of the product by optimizing React component rendering.",
+        "Implemented automated unit tests using Jest to ensure the robustness of the application."
+      ]
+    },
+    {
+      "company": "Creative Solutions Ltd.",
+      "role": "UI/UX Designer Intern",
+      "startDate": "January 2023",
+      "endDate": "April 2023",
+      "responsibilities": [
+        "Designed user-friendly interfaces for mobile and web applications using Figma.",
+        "Collaborated with the development team to ensure smooth handoff and implementation of designs.",
+        "Conducted user research and usability testing to improve the overall user experience."
+      ]
+    }
+  ]
+}
