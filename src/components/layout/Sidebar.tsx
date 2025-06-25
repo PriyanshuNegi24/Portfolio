@@ -11,7 +11,7 @@ const menuItems = [
   { title: "About Me", href: "hero" },
   { title: "Projects", href: "projects" },
   { title: "Skills", href: "skills" },
-  { title: "Experience", href: "experience" },
+  { title: "Education", href: "education" },
 ];
 
 export const Sidebar = () => {

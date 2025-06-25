@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import ParallaxBackground from "../ui/ParallaxBackground.tsx";
 import { usePortfolioConfig } from "../../hooks/usePortfolioConfig.tsx";
 
-interface Experience {
-  company: string;
-  role: string;
+interface Education {
+  institution: string;
+  degree: string;
   startDate: string;
   endDate: string;
-  responsibilities: string[];
+  details: string[];
 }
 
-const Experience: React.FC = () => {
-  const { experience } = usePortfolioConfig();
+const Education: React.FC = () => {
+  const { education } = usePortfolioConfig();
   const isSmallScreen = window.matchMedia("(max-width: 640px)").matches;
 
   const containerVariants = {
@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
 
   return (
     <section
-      id="experience"
+      id="education"
       className="min-h-screen flex items-center justify-center bg-gradient-to-b from-primary-100 to-white relative overflow-hidden py-20"
     >
       <ParallaxBackground />
@@ -57,10 +57,10 @@ const Experience: React.FC = () => {
           className="text-center mb-20"
         >
           <h2 className="font-display text-4xl md:text-5xl font-medium tracking-tight text-primary-900 mb-4">
-            Professional Experience
+            Education
           </h2>
           <p className="font-sans text-lg md:text-xl font-normal text-primary-600 tracking-normal leading-relaxed max-w-2xl mx-auto">
-            My journey in the industry
+            My academic background
           </p>
         </motion.div>
 
@@ -73,7 +73,7 @@ const Experience: React.FC = () => {
         >
           <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-primary-300 transform md:-translate-x-px" />
 
-          {experience.map((exp, index) => (
+          {education.map((edu, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
@@ -97,26 +97,26 @@ const Experience: React.FC = () => {
 
               <motion.div className="mb-6">
                 <h3 className="font-title text-xl md:text-2xl font-semibold text-primary-900 mb-2">
-                  {exp.role}
+                  {edu.degree}
                 </h3>
                 <p className="font-title text-lg font-medium text-primary-600 mb-3">
-                  {exp.company}
+                  {edu.institution}
                 </p>
                 <p className="font-sans text-sm uppercase tracking-wider font-medium text-primary-500">
-                  {exp.startDate} - {exp.endDate}
+                  {edu.startDate} - {edu.endDate}
                 </p>
               </motion.div>
 
               <ul className="space-y-4">
-                {exp.responsibilities.map((responsibility, respIndex) => (
+                {edu.details.map((detail, detailIndex) => (
                   <motion.li
-                    key={respIndex}
+                    key={detailIndex}
                     variants={itemVariants}
                     className="flex items-start group"
                   >
                     <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary-500 mt-2.5 mr-3 flex-shrink-0" />
                     <p className="font-sans text-base text-primary-700 leading-relaxed font-normal">
-                      {responsibility}
+                      {detail}
                     </p>
                   </motion.li>
                 ))}
@@ -129,4 +129,4 @@ const Experience: React.FC = () => {
   );
 };
 
-export default Experience;
+export default Education;

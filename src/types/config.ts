@@ -7,13 +7,14 @@ export interface Skill {
   name: string;
 }
 
-export interface Experience {
-  company: string;
-  role: string;
+export interface Education {
+  institution: string;
+  degree: string;
   startDate: string;
   endDate: string;
-  responsibilities: string[];
+  details: string[];
 }
+
 export interface Project {
   title: string;
   description: string;
@@ -40,5 +41,5 @@ export interface PortfolioConfig {
   };
   projects: Project[];
   skills: Skill[];
-  experience: Experience[];
+  education: Education[];
 }

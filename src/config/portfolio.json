@@ -51,38 +51,36 @@
     { "name": "Git" },
     { "name": "C++" }
   ],
-  "experience": [
+  "education": [
     {
-      "company": "Health Pulse Connect",
-      "role": "Frontend Developer Intern",
-      "startDate": "May 2024",
-      "endDate": "June 2024",
-      "responsibilities": [
-        "Developed and maintained a health sector startup, implementing real-time chat and video call features with WebSockets.",
-        "Used Redux for state management and API integration, improving application performance.",
-        "Enhanced the web app's UI for a better user experience."
+      "institution": "Glacier Public School, Dehradun",
+      "degree": "Secondary School Certificate (Class X)",
+      "startDate": "April 2019",
+      "endDate": "March 2020",
+      "details": [
+        "Completed foundational courses in Science, Mathematics, and Social Studies.",
+        "Graduated with excellent academic performance."
       ]
     },
     {
-      "company": "Tech Innovations Inc.",
-      "role": "Software Engineer Intern",
-      "startDate": "June 2023",
-      "endDate": "August 2023",
-      "responsibilities": [
-        "Collaborated with the backend team to integrate APIs into the frontend using React.",
-        "Improved the scalability of the product by optimizing React component rendering.",
-        "Implemented automated unit tests using Jest to ensure the robustness of the application."
+      "institution": "Glacier Public School, Dehradun",
+      "degree": "Higher Secondary (Class XII - Science)",
+      "startDate": "April 2021",
+      "endDate": "March 2022",
+      "details": [
+        "Studied Physics, Chemistry, Mathematics, and Computer Science.",
+        "Graduated with distinction."
       ]
     },
     {
-      "company": "Creative Solutions Ltd.",
-      "role": "UI/UX Designer Intern",
-      "startDate": "January 2023",
-      "endDate": "April 2023",
-      "responsibilities": [
-        "Designed user-friendly interfaces for mobile and web applications using Figma.",
-        "Collaborated with the development team to ensure smooth handoff and implementation of designs.",
-        "Conducted user research and usability testing to improve the overall user experience."
+      "institution": "Graphic Era Hill University",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "startDate": "September 2022",
+      "endDate": "Present",
+      "details": [
+        "Studied core subjects including Data Structures, Operating Systems, DBMS, and Computer Networks.",
+        "Completed projects in web development, compiler design, and machine learning.",
+        "Active participant in coding contests and technical workshops."
       ]
     }
   ]

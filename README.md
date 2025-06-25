@@ -272,3 +272,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Made with ❤️ by [salehkhatri.tech](https://salehkhatri.tech)
 
 Don't forget to follow me on [Twitter](https://twitter.com/salehdotdev) for updates and web development tips!
+
+Priyanshu Negi:- Note that this is not my original template
